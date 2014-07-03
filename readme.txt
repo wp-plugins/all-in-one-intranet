@@ -42,16 +42,21 @@ See [All-In-One Intranet Premium](http://wp-glogin.com/all-in-one-intranet/?utm_
 
 Does your organization use Google Apps?
 
-See our [Google Apps Login](http://wp-glogin.com/google-apps-login-premium/?utm_source=AllInOne%20Readme%20GAL&utm_medium=freemium&utm_campaign=AllInOneFreemium) 
-plugin useful to completely eliminate user management and increase login security. 
+Our [Google Apps Login](http://wp-glogin.com/google-apps-login-premium/?utm_source=AllInOne%20Readme%20GAL&utm_medium=freemium&utm_campaign=AllInOneFreemium) 
+plugin enables Google Apps domain admins to manage WordPress user accounts entirely from Google Apps. 
+This saves time and increases security - giving peace of mind that only authorized employees have access to the company's websites and intranet. 
 
-And our [Google Drive Embedder]((http://wp-glogin.com/drive/?utm_source=AllInOne%20Readme%20GDE&utm_medium=freemium&utm_campaign=AllInOneFreemium)) plugin for easily sharing documents directly from 
-Google Drive throughout your site.
+And our [Google Drive Embedder]((http://wp-glogin.com/drive/?utm_source=AllInOne%20Readme%20GDE&utm_medium=freemium&utm_campaign=AllInOneFreemium)) 
+plugin allows post/page authors to easily embed documents directly from Google Drive throughout your site.
 
 = Website =
 
 Please see our website [http://wp-glogin.com/](http://wp-glogin.com/?utm_source=AllInOne%20Readme%20Website&utm_medium=freemium&utm_campaign=AllInOneFreemium) 
 for more information about all our products, and to join our mailing list. 
+
+== Screenshots ==
+
+1. Settings page to configure intranet settings.
 
 == Frequently Asked Questions ==
 
