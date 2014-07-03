@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: All-In-One Intranet Basic
+ * Plugin Name: All-In-One Intranet
  * Plugin URI: http://wp-glogin.com/all-in-one-intranet
  * Description: Instantly turn WordPress into a private corporate intranet 
  * Version: 1.1
