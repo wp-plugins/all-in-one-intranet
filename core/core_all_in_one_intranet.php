@@ -243,6 +243,10 @@ class core_all_in_one_intranet {
 		echo "<input id='input_aioi_loginredirect' name='".$this->get_options_name()."[aioi_loginredirect]' type='input' value='".esc_attr($options['aioi_loginredirect'])."' size='60' />";
 		
 		echo "<br />";
+		
+		echo "<p>Effective when users login via /wp-login.php directly. Otherwise, they will be taken to the page they were trying to access before being required to login.</p>";
+		
+		echo "<br />";
 		echo "<br />";
 	}
 	
