@@ -3,7 +3,7 @@ Contributors: danlester
 Tags: authentication, company, intranet, extranet, private, privacy, network, security, visibility, secure
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -109,6 +109,10 @@ the Plugins section of your Wordpress admin
 
 
 == Changelog ==
+
+= 1.2 =
+
+On non-multisite WordPress, now restricts access to users who have no role, as well as those who aren't logged in at all.
 
 = 1.1 =
 

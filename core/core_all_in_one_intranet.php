@@ -22,7 +22,18 @@ class core_all_in_one_intranet {
 			auth_redirect();
 		}
 		else {
-			$this->handle_private_loggedin_multisite($options);
+			if (is_multisite()) {
+				$this->handle_private_loggedin_multisite($options);
+			}
+			else {
+				// Bar access to users with no role
+				$user = wp_get_current_user();
+				if (!$user || !is_array($user->roles) || count($user->roles) == 0) {
+					wp_logout();
+					$output = '<p>'.esc_html('You attempted to login to the site, but you do not have any permissions. If you believe you should have access, please contact your administrator.').'</p>';
+					wp_die($output);
+				}
+			}
 		}
 	}
 	

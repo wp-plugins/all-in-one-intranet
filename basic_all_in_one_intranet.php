@@ -4,7 +4,7 @@
  * Plugin Name: All-In-One Intranet
  * Plugin URI: http://wp-glogin.com/all-in-one-intranet
  * Description: Instantly turn WordPress into a private corporate intranet 
- * Version: 1.1
+ * Version: 1.2
  * Author: Dan Lester
  * Author URI: http://wp-glogin.com/
  * License: GPL3
@@ -16,7 +16,7 @@ if (!class_exists('core_all_in_one_intranet')) {
 
 class aioi_basic_all_in_one_intranet extends core_all_in_one_intranet {
 	
-	protected $PLUGIN_VERSION = '1.1';
+	protected $PLUGIN_VERSION = '1.2';
 	
 	// Singleton
 	private static $instance = null;
